@@ -1,0 +1,35 @@
+
+            // ---------- Generalities about C++ ---------- //
+The main purpose for making c++ was to add classes to C language and adapt it to OOP philosophy.
+
+To use cpp, file name should end with .cpp extension
+
+When c++ source code is compiled, it is not compiled directly to machine code, instead it gets translated to assembly code first, then libraries and header files get linked to the main code, after it gets translated to binary executable program.
+
+ -- ! -- Please open index.cpp file to see code for each concept
+
+C++ has something called namespaces, where a function with the same name with different tasks could be exist in the same project, but to handle the problem of repetition and confusion, we need to define a namespace for each one:
+
+  namespace A {
+    function foo() {}
+  }
+
+  namespace B {
+    function foo() {}
+  }
+
+A namespace is like directories in operating systems
+
+What you define inside a namespace could not be used outside the namespace unless you specified its namespace
+
+Computer memory has 3 memory zones
+  1. Stack (La pile)
+    -> It contains variables that are declared within blocks ({..}) which are called local varaibles;
+    -> Local varaibles are created only when the function is called, and when it gets the end, those varaibles get destroyed.
+  2. Static zone:
+    -> It contains variables declared outside functions and also static varaibles inside functions which are called static/global varaibles.
+    -> They are created in the beginning of program execution, and they get destroyed by the end of the program as well.
+  3. Heap (Le tas):
+    -> It contains the variables that are created/allocated dynamically in the exec mode of the program which are called dynamic varaibles.
+    -> Their lifetime is variable
+
