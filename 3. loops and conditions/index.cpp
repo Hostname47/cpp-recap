@@ -32,9 +32,7 @@ void forloop() {
 }
 
 void whileloop() {
-  /* while loop: Executes a block of code as long as a specified condition is true.
-
-    Syntax:
+  /* while loop: Executes a block of code as long as a specified condition is true. Syntax:
 
     while (condition) {
       // code
@@ -70,4 +68,54 @@ void dowhileloop() {
   do {
     cin >> a;
   } while (a <= 0);
+}
+
+/** II. Conditions 
+ * 
+   Conditions are used to make decisions in code based on whether a certain condition is true or false.
+
+    1. if statement: Executes a block of code if a specified condition is true.
+    2. if...else statement
+    3. if...else if...else statement
+    4. switch statement
+*/
+
+void conditions() {
+  int x = 10;
+  if (x > 5) {
+    cout << "x is greater than 5" << endl;
+  }
+
+  /* This will print "x is greater than 5" */
+
+  if (x > 20) {
+    cout << "x is greater than 20" << endl;
+  } else {
+    cout << "x is not greater than 20" << endl;
+  }
+
+  /* This will print "x is not greater than 20" */
+
+  if (x > 20) {
+    cout << "x is greater than 20" << endl;
+  } else if (x > 15) {
+    cout << "x is greater than 15" << endl;
+  } else {
+    cout << "x is not greater than 15" << endl;
+  }
+
+  /* This will print "x is not greater than 20" */
+
+  switch (x) {
+    case 5:
+      cout << "x is 5" << endl;
+      break;
+    case 10:
+      cout << "x is 10" << endl;
+      break;
+    default:
+      cout << "x is not 5 or 10" << endl;
+  }
+
+  /* This will print "x is 10" */
 }
