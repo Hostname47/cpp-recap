@@ -1,0 +1,13 @@
+Author: MOUAD NASSRI
+
+DISCLAIMERS:
+    * In the process of revising c++ language, I want to take this opportunity and write down
+    everything I know for several reasons:
+      - Share my knowledge with other people that may find it helpful
+      - I can go back here to revise and track my coding skills in the future
+      - Waiting for people to collaborate and engage with this project
+    * The project is open-source and it is available in github for everyone, If you find anything
+    hat could be improved or a missing section don't hesitate to send your changes by opening a pull
+    request and I'll be very happy to accept your art ✨
+    * Maybe this repo will include more modules than just c++ in the future but for now, it is focuses
+    precisely on c++.
